@@ -13,6 +13,7 @@ Ebook: [Language-Integrated Query (LINQ) (C#)  Microsoft Docs](https://drive.goo
 ### 2. [Compile and execute in notepad++ and Sublime Text](https://www.codeproject.com/Articles/1130480/Compile-and-execute-Java-Csharp-and-PHP-from-your)
   Execute all file C# in notepad++:
   ```
+  cd $(CURRENT_DIRECTORY)
   csc $(CURRENT_DIRECTORY)\*.cs
   $(NAME_PART)
   ```
